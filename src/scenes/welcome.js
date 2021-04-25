@@ -18,7 +18,7 @@ export class WelcomeScene extends Phaser.Scene {
     this.graphics.lineStyle(2, UI_COLOR_NUM, 1);
     this.graphics.strokeRoundedRect(PANEL_OFFSET, PANEL_OFFSET, window.innerWidth - PANEL_OFFSET * 2, window.innerHeight - PANEL_OFFSET * 2, 30);
 
-    this.title = this.add.text(window.innerWidth / 2, PANEL_OFFSET + 50, 'COMP – Cosmos exploration game', {
+    this.title = this.add.text(window.innerWidth / 2, PANEL_OFFSET + 50, 'COSP – Cosmos exploration game', {
       font: '34px sans-serif',
       fill: UI_COLOR_STR,
     });
